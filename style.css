@@ -1,5 +1,7 @@
 
-
+body {
+    width: 1450px;
+}
 
 
 header {
@@ -13,7 +15,96 @@ ul  {
     justify-content: space-between;
 }
 ul a {
-    color:  #636060;
-    
+    font-size: 18px;
+    color:  #636060; 
     
 }
+.div1 {
+    display: flex;
+    margin-top: 30px;
+    width: 1440px;
+    height: 606px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div1 p {
+    width: 620px;
+    height: 90px;
+    position: absolute;
+    font-size: 80px;
+    font-weight: 800;
+    color: #ffffff;
+   
+}
+
+#p1 {
+    font-size: 20px;
+    padding-top: 250px;
+    padding-left: 120px;
+}
+
+.div2 {
+    width: 250px;
+    height: 700px;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+#p2 {
+    font-size: 17px;
+    color: #636060 ;
+    
+}
+#p3 {
+    color: #010101;
+    font-size: 28px;
+    margin-top: 15px;
+}
+#p4 {
+    color: #636060;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
+
+     /* !!!!!!!!! */
+     
+#div {
+    display: flex;
+}     
+
+.divmain div img  {
+    width: 290px;
+    height: 200px;
+    
+}
+
+.divmain div h1 {
+    font-size: 20px;
+    color: #343232;
+}
+
+
+.divmain div p {
+    width: 290px;
+    color: #636060;
+    font-size: 18px;
+
+}
+
+
+.divmain {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.divmain div {
+    width: 290px;
+}
+
