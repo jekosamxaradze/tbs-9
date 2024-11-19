@@ -1,0 +1,19 @@
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+ul  {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+ul a {
+    color:  #636060;
+    
+    
+}
